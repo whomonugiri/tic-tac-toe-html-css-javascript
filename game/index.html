@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="game">
+    <h1>Tic-Tac-Toe</h1>
+    <p>Two players. One device. Get three in a row!</p>
+    <p id="status" role="status" aria-live="polite">Player X's turn</p>
+    <div id="board" role="group" aria-label="Tic-tac-toe board">
+      <button class="cell" aria-label="Cell 1, empty"></button>
+      <button class="cell" aria-label="Cell 2, empty"></button>
+      <button class="cell" aria-label="Cell 3, empty"></button>
+      <button class="cell" aria-label="Cell 4, empty"></button>
+      <button class="cell" aria-label="Cell 5, empty"></button>
+      <button class="cell" aria-label="Cell 6, empty"></button>
+      <button class="cell" aria-label="Cell 7, empty"></button>
+      <button class="cell" aria-label="Cell 8, empty"></button>
+      <button class="cell" aria-label="Cell 9, empty"></button>
+    </div>
+    <button id="restart">Restart game</button>
+    <p class="hint">Keyboard: Tab to a square, then Enter or Space.</p>
+  </main>
+</body>
+</html>
